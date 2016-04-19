@@ -5,9 +5,6 @@
 		<title>Wyn-Tech.com</title>
 	</head>
 	<body>
-
-		<main class="content-main col-xs-12 col-md-9">
-
 			<h3>Wyn-Tech.com Milestone 1</h3>
 			<h4>Purpose, Audience and Goal</h4>
 			<p><strong>Purpose</strong>: This will be a website used to showcase my web development skills as well as my technical background.</p>
