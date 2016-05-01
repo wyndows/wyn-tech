@@ -2,6 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
+		<link rel="stylesheet" href="../css/style.css">
 		<title>Wyn-Tech.com</title>
 	</head>
 	<body>
@@ -31,6 +32,7 @@
 			<li>Content Page Layout</li>
 		</ol>
 		<br>
+		<div
 		<h4>Home Page Layout: Mobile</h4>
 		<img class="img1" src="../media/mobile_home.svg" alt="home page mobile wireframe">
 		<h4>Content Page Layout: Mobile</h4>
@@ -38,6 +40,6 @@
 		<h4>Home Page Layout: Desktop</h4>
 		<img class="img3" src="../media/desktop_home.svg" alt="home page desktop wireframe">
 		<h4>Content Page Layout: Desktop</h4>
-		<img class="img-responsive" src="../media/desktop_content.svg" alt="content page desktop wireframe">
+		<img class="img4" src="../media/desktop_content.svg" alt="content page desktop wireframe">
 	</body>
 </html>
