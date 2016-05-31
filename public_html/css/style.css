@@ -1,7 +1,77 @@
+/* Utilites */
+.p-a-2 {
+	padding: 2rem;
+}
+
+.p-y-4 {
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+}
+
+/* header */
+header {
+	background: #ccc;
+}
 body {
 	font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
 }
 
-h4 {
-	color: navy;
+/* welcome */
+#welcome {
+	background-color: azure;
 }
+.welcome {
+	text-align: center;
+}
+.info {
+	font-size: .7em;
+}
+/* feature */
+#feature {
+	background: #ccc;
+}
+
+/* thumbs */
+#thumbnails {
+	background-color: azure;
+}
+.thumbnail {
+	background: sandybrown;
+}
+.about {
+	text-align: center;
+}
+.port {
+	text-align: center;
+}
+.contact {
+	text-align: center;
+}
+.personal {
+	text-align: center;
+}
+/* footer */
+footer {
+	background: #ccc;
+}
+
+/***
+* Flexbox Sticky Footer
+* http://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
+***/
+
+/*corrects IE min-height bug*/
+html { display: flex;}
+body { width: 100%;}
+
+.sfooter {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.sfooter-content {
+	flex: 1 0 auto;
+}
+
+.warning {color: #ff0000;}
