@@ -89,7 +89,7 @@
 					<div class="row">
 						<div class="col-md-3">
 							<div class="thumbnail">
-								<img src="media/200/band2001.jpg" alt="" class="img-responsive img-thumbnail img-circle">
+								<img src="media/200/band2001.jpg" alt="Tree across trail, Bandelier National Monument" class="img-responsive img-thumbnail img-circle">
 								<div class="caption">
 									<h3 class="about">About Me</h3>
 									<p>A history of my professional experience, current programming projects and resume.</p>
@@ -98,7 +98,7 @@
 						</div><!--/.col-md-3-->
 						<div class="col-md-3">
 							<div class="thumbnail">
-								<img src="media/200/band2002.jpg" alt="" class="img-responsive img-thumbnail img-circle">
+								<img src="media/200/band2002.jpg" alt="Fall leaves at Bandelier National Monument" class="img-responsive img-thumbnail img-circle">
 								<div class="caption">
 									<h3 class="port">Portfolio</h3>
 									<p>Programming projects I've been involved in.</p>
@@ -107,7 +107,7 @@
 						</div><!--/.col-md-3-->
 						<div class="col-md-3">
 							<div class="thumbnail">
-								<img src="media/200/band2003.jpg" alt="" class="img-responsive img-thumbnail img-circle">
+								<img src="media/200/band2003.jpg" alt="Fall leaves at Bandelier National Monument" class="img-responsive img-thumbnail img-circle">
 								<div class="caption">
 									<h3 class="contact">Contact Me</h3>
 									<p>.</p>
@@ -116,7 +116,7 @@
 						</div><!--/.col-md-3-->
 						<div class="col-md-3">
 							<div class="thumbnail">
-								<img src="media/200/band2004.jpg" alt="" class="img-responsive img-thumbnail img-circle">
+								<img src="media/200/band2004.jpg" alt="Looking down trail, Bandelier National Monument" class="img-responsive img-thumbnail img-circle">
 								<div class="caption">
 									<h3 class="personal">Personal Projects</h3>
 									<p>Some of my personal projects outside of work which I have enjoyed building or making.</p>
