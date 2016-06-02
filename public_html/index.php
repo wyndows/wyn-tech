@@ -34,30 +34,16 @@
 						<!-- Collect the nav links, forms, and other content for toggling -->
 						<div class="collapse navbar-collapse" id="main-nav">
 							<ul class="nav navbar-nav navbar-right">
-								<li><a href="#">Link1</a></li>
-								<li><a href="#">Link2</a></li>
-								<li><a href="#">Link3</a></li>
-								<li><a href="#">Link4</a></li>
+								<li><a href="#">About Me</a></li>
+								<li><a href="#">Portfolio</a></li>
+								<li><a href="#">Contact Me</a></li>
+								<li><a href="#">Personal Projects</a></li>
 							</ul>
 						</div><!-- /.navbar-collapse -->
 					</nav>
 				</div>
 			</header>
 
-			<!-- welcome section -->
-			<section id="welcome" class="p-y-4">
-				<div class="container">
-					<div class="jumbotron">
-						<h2 class="welcome">Welcome to Wyn-Tech</h2>
-						<p></p>
-						<p>Hi, you're at the homepage for Marlan Ball, web developer, service engineer, woodworker and amateur
-							radio operator.</p>
-						<p>Here you'll find apps I've worked on, my professional
-							experience and some of my personal projects.</p>
-						<br>
-					</div>
-				</div>
-			</section>
 
 			<!-- feature section -->
 			<section id="feature" class="p-y-4">
@@ -68,15 +54,17 @@
 								  alt="Kiva in Alcove House, Bandelier National Monument">
 						</div>
 						<div class="col-md-8">
+							<h2>Welcome to Wyn-Tech</h2>
+							<p>Hi, you're at the homepage for Marlan Ball, web developer, service engineer, woodworker and amateur radio operator.</p>
 							<p>After spending 20 years as a Field Service Engineer working on advanced photolithography
-								equipment, keeping the semiconductor industry running, I have extended my skills and am now a
+								equipment for the semiconductor industry, I have extended my skills and am now a
 								Web Developer. I have been involved
 								with hardware for many years and have enjoyed extending my experience to now include the
 								software side. My current
-								repertoire includes PHP, JavaScript, HMTL, CSS, with work in Angular and Bootstrap
+								repertoire includes PHP, JavaScript, mySQL, HTML, CSS, with work in Angular and Bootstrap
 								frameworks. </p>
 							<br><br>
-							<p class="info">All photographs on this site are of Bandelier National Monument, New Mexico,
+							<p class="info">All photographs on this site were taken during hikes at Bandelier National Monument, New Mexico,
 								USA.</p>
 						</div>
 					</div>
@@ -87,39 +75,39 @@
 			<section id="thumbnails" class="p-y-4">
 				<div class="container">
 					<div class="row">
-						<div class="col-md-3">
+						<div class="col-md-3 col-sm-6">
 							<div class="thumbnail">
 								<img src="media/200/band2001.jpg" alt="Tree across trail, Bandelier National Monument" class="img-responsive img-thumbnail img-circle">
 								<div class="caption">
 									<h3 class="about">About Me</h3>
-									<p>A history of my professional experience, current programming projects and resume.</p>
+									<p>Professional experience and resume.&#160;&#160;&#160;&#160;&#160;&#160;</p>
 								</div>
 							</div><!--/.thumbnail-->
 						</div><!--/.col-md-3-->
-						<div class="col-md-3">
+						<div class="col-md-3 col-sm-6">
 							<div class="thumbnail">
 								<img src="media/200/band2002.jpg" alt="Fall leaves at Bandelier National Monument" class="img-responsive img-thumbnail img-circle">
 								<div class="caption">
 									<h3 class="port">Portfolio</h3>
-									<p>Programming projects I've been involved in.</p>
+									<p>Programming projects, past and present.&#160;&#160;&#160;&#160;&#160;&#160;</p>
 								</div>
 							</div><!--/.thumbnail-->
 						</div><!--/.col-md-3-->
-						<div class="col-md-3">
+						<div class="col-md-3 col-sm-6">
 							<div class="thumbnail">
 								<img src="media/200/band2003.jpg" alt="Fall leaves at Bandelier National Monument" class="img-responsive img-thumbnail img-circle">
 								<div class="caption">
 									<h3 class="contact">Contact Me</h3>
-									<p>.</p>
+									<p>Get in contact with me and interesting links.</p>
 								</div>
 							</div><!--/.thumbnail-->
 						</div><!--/.col-md-3-->
-						<div class="col-md-3">
+						<div class="col-md-3 col-sm-6">
 							<div class="thumbnail">
 								<img src="media/200/band2004.jpg" alt="Looking down trail, Bandelier National Monument" class="img-responsive img-thumbnail img-circle">
 								<div class="caption">
 									<h3 class="personal">Personal Projects</h3>
-									<p>Some of my personal projects outside of work which I have enjoyed building or making.</p>
+									<p>Enjoyable projects outside of work.&#160;&#160;&#160;&#160;&#160;&#160;</p>
 								</div>
 							</div><!--/.thumbnail-->
 						</div><!--/.col-md-3-->
@@ -132,6 +120,12 @@
 			<div class="container">
 				<div class="copyright text-center">
 					&copy; Wyn-Tech 2016
+				</div>
+				<div class="link1 pull-right">
+					<a href="#">LinkedIn</a>
+				</div>
+				<div class="link2 pull-right">
+					<a href="#">GitHub</a>
 				</div>
 			</div>
 		</footer>

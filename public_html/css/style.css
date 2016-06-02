@@ -10,22 +10,33 @@
 
 /* header */
 header {
-	background: #ccc;
+	background: olive;
 }
+
+.navbar {
+	background-color: #ccc;
+	color: black;
+}
+
+
+
 body {
-	font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
 }
 
 /* welcome */
 #welcome {
-	background-color: azure;
+	background-color: #ccc
 }
+
 .welcome {
 	text-align: center;
 }
+
 .info {
 	font-size: .7em;
 }
+
 /* feature */
 #feature {
 	background: #ccc;
@@ -33,23 +44,29 @@ body {
 
 /* thumbs */
 #thumbnails {
-	background-color: azure;
+	background-color: olive;
 }
+
 .thumbnail {
 	background: sandybrown;
 }
+
 .about {
 	text-align: center;
 }
+
 .port {
 	text-align: center;
 }
+
 .contact {
 	text-align: center;
 }
+
 .personal {
 	text-align: center;
 }
+
 /* footer */
 footer {
 	background: #ccc;
@@ -61,8 +78,13 @@ footer {
 ***/
 
 /*corrects IE min-height bug*/
-html { display: flex;}
-body { width: 100%;}
+html {
+	display: flex;
+}
+
+body {
+	width: 100%;
+}
 
 .sfooter {
 	display: flex;
@@ -74,4 +96,6 @@ body { width: 100%;}
 	flex: 1 0 auto;
 }
 
-.warning {color: #ff0000;}
+.warning {
+	color: #ff0000;
+}
