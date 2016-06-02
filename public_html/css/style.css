@@ -29,6 +29,10 @@ body {
 	background-color: #ccc
 }
 
+h2 {
+	text-align: center;
+}
+
 .welcome {
 	text-align: center;
 }
@@ -84,6 +88,24 @@ html {
 
 body {
 	width: 100%;
+	background-color: olive;
+}
+
+@media only screen and (min-width: 991px) {
+
+	.link1,
+	.link2,
+	.link3 {
+		float: right;
+	}
+
+}
+
+.fa-linkedin-square {
+	font-size: xx-large;
+}
+.fa-github {
+	font-size: xx-large;
 }
 
 .sfooter {

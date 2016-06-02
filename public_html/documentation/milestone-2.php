@@ -48,5 +48,7 @@
 			<h4>Content Page Layout: Desktop</h4>
 			<img class="img4" src="../media/desktop-content.svg" alt="content page desktop 			wireframe">
 		</div>
+
+		<div class="warning" id="error01">Sorry, something happened. Unknown error!</div>
 	</body>
 </html>

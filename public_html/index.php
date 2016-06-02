@@ -4,6 +4,9 @@
 		<meta charset="utf-8">
 		<link data-require="bootstrap-css@3.3.6" data-semver="3.3.6" rel="stylesheet"
 				href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.css"/>
+		<!-- Font Awesome -->
+		<link type="text/css" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" />
+		<!-- Custom -->
 		<link rel="stylesheet" href="./css/style.css"/>
 		<script data-require="jquery@*" data-semver="2.2.0"
 				  src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
@@ -50,8 +53,79 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-4">
-							<img class="img1" src="media/300/band9.jpg"
-								  alt="Kiva in Alcove House, Bandelier National Monument">
+							<!-- Photo Carousel -->
+							<div id="myCarousel" class="carousel slide" data-ride="carousel">
+								<!-- Carousel indicators -->
+								<ol class="carousel-indicators">
+									<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+									<li data-target="#myCarousel" data-slide-to="1"></li>
+									<li data-target="#myCarousel" data-slide-to="2"></li>
+									<li data-target="#myCarousel" data-slide-to="3"></li>
+									<li data-target="#myCarousel" data-slide-to="4"></li>
+									<li data-target="#myCarousel" data-slide-to="5"></li>
+									<li data-target="#myCarousel" data-slide-to="6"></li>
+									<li data-target="#myCarousel" data-slide-to="7"></li>
+									<li data-target="#myCarousel" data-slide-to="8"></li>
+									<li data-target="#myCarousel" data-slide-to="9"></li>
+									<li data-target="#myCarousel" data-slide-to="10"></li>
+									<li data-target="#myCarousel" data-slide-to="11"></li>
+									<li data-target="#myCarousel" data-slide-to="12"></li>
+									<li data-target="#myCarousel" data-slide-to="13"></li>
+								</ol>
+								<!-- Wrapper for carousel items -->
+								<div class="carousel-inner">
+									<div class="item active">
+										<img src="media/300/band1.jpg" alt="First Slide">
+									</div>
+									<div class="item">
+										<img src="media/300/band2.jpg" alt="Second Slide">
+									</div>
+									<div class="item">
+										<img src="media/300/band3.jpg" alt="Third Slide">
+									</div>
+									<div class="item">
+										<img src="media/300/band4.jpg" alt="Fourth Slide">
+									</div>
+									<div class="item">
+										<img src="media/300/band5.jpg" alt="Fifth Slide">
+									</div>
+									<div class="item">
+										<img src="media/300/band6.jpg" alt="Sixth Slide">
+									</div>
+									<div class="item">
+										<img src="media/300/band7.jpg" alt="Seventh Slide">
+									</div>
+									<div class="item">
+										<img src="media/300/band8.jpg" alt="Eighth Slide">
+									</div>
+									<div class="item">
+										<img src="media/300/band9.jpg" alt="Ninth Slide">
+									</div>
+									<div class="item">
+										<img src="media/300/band10.jpg" alt="Tenth Slide">
+									</div>
+									<div class="item">
+										<img src="media/300/band11.jpg" alt="Eleventh Slide">
+									</div>
+									<div class="item">
+										<img src="media/300/band12.jpg" alt="Twelfth Slide">
+									</div>
+									<div class="item">
+										<img src="media/300/band13.jpg" alt="Thirteenth Slide">
+									</div>
+									<div class="item">
+										<img src="media/300/band14.jpg" alt="Fourteenth Slide">
+									</div>
+								</div>
+								<!-- Carousel controls -->
+								<a class="carousel-control left" href="#myCarousel" data-slide="prev">
+									<span class="glyphicon glyphicon-chevron-left"></span>
+								</a>
+								<a class="carousel-control right" href="#myCarousel" data-slide="next">
+									<span class="glyphicon glyphicon-chevron-right"></span>
+								</a>
+							</div>
+
 						</div>
 						<div class="col-md-8">
 							<h2>Welcome to Wyn-Tech</h2>
@@ -63,7 +137,7 @@
 								software side. My current
 								repertoire includes PHP, JavaScript, mySQL, HTML, CSS, with work in Angular and Bootstrap
 								frameworks. </p>
-							<br><br>
+
 							<p class="info">All photographs on this site were taken during hikes at Bandelier National Monument, New Mexico,
 								USA.</p>
 						</div>
@@ -106,7 +180,7 @@
 							<div class="thumbnail">
 								<img src="media/200/band2004.jpg" alt="Looking down trail, Bandelier National Monument" class="img-responsive img-thumbnail img-circle">
 								<div class="caption">
-									<h3 class="personal">Personal Projects</h3>
+									<h3 class="personal">For Fun</h3>
 									<p>Enjoyable projects outside of work.&#160;&#160;&#160;&#160;&#160;&#160;</p>
 								</div>
 							</div><!--/.thumbnail-->
@@ -115,18 +189,28 @@
 				</div><!--/.container-->
 			</section>
 		</div>
-		
+
 		<footer class="p-y-4">
-			<div class="container">
-				<div class="copyright text-center">
-					&copy; Wyn-Tech 2016
+			<div class="container text-center">
+
+				<div class="col-md-6 col-md-offset-3">
+					<div class="copyright text-center">
+						© Wyn-Tech 2016
+					</div>
 				</div>
-				<div class="link1 pull-right">
-					<a href="#">LinkedIn</a>
+
+				<div class="col-md-3">
+					<div class="link1">
+						<a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+					</div>
+					<div class="link3">
+						<a href="#">&#160;&#160;&#160;</a>
+					</div>
+					<div class="link2">
+						<a href="#"><i class="fa fa-github" aria-hidden="true"></i></a>
+					</div>
 				</div>
-				<div class="link2 pull-right">
-					<a href="#">GitHub</a>
-				</div>
+
 			</div>
 		</footer>
 	</body>
