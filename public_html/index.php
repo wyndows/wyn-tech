@@ -37,10 +37,10 @@
 						<!-- Collect the nav links, forms, and other content for toggling -->
 						<div class="collapse navbar-collapse" id="main-nav">
 							<ul class="nav navbar-nav navbar-right">
-								<li><a href="#">About Me</a></li>
-								<li><a href="#">Portfolio</a></li>
-								<li><a href="#">Contact Me</a></li>
-								<li><a href="#">Personal Projects</a></li>
+								<li><a href="./about/index.php">About Me</a></li>
+								<li><a href="./portfolio/index.php">Portfolio</a></li>
+								<li><a href="./contact/index.php">Contact Me</a></li>
+								<li><a href="./projects/index.php">Personal Projects</a></li>
 							</ul>
 						</div><!-- /.navbar-collapse -->
 					</nav>
@@ -151,7 +151,7 @@
 					<div class="row">
 						<div class="col-md-3 col-sm-6">
 							<div class="thumbnail">
-								<img src="media/200/band2001.jpg" alt="Tree across trail, Bandelier National Monument" class="img-responsive img-thumbnail img-circle">
+								<a href="./about/index.php"><img src="media/200/band2001.jpg" alt="Tree across trail, Bandelier National Monument" class="img-responsive img-thumbnail img-circle"></a>
 								<div class="caption">
 									<h3 class="about">About Me</h3>
 									<p>Professional experience and resume.&#160;&#160;&#160;&#160;&#160;&#160;</p>
@@ -160,7 +160,7 @@
 						</div><!--/.col-md-3-->
 						<div class="col-md-3 col-sm-6">
 							<div class="thumbnail">
-								<img src="media/200/band2002.jpg" alt="Fall leaves at Bandelier National Monument" class="img-responsive img-thumbnail img-circle">
+								<a href="./portfolio/index.php"><img src="media/200/band2002.jpg" alt="Fall leaves at Bandelier National Monument" class="img-responsive img-thumbnail img-circle"></a>
 								<div class="caption">
 									<h3 class="port">Portfolio</h3>
 									<p>Programming projects, past and present.&#160;&#160;&#160;&#160;&#160;&#160;</p>
@@ -169,7 +169,7 @@
 						</div><!--/.col-md-3-->
 						<div class="col-md-3 col-sm-6">
 							<div class="thumbnail">
-								<img src="media/200/band2003.jpg" alt="Fall leaves at Bandelier National Monument" class="img-responsive img-thumbnail img-circle">
+								<a href="./contact/index.php"><img src="media/200/band2003.jpg" alt="Fall leaves at Bandelier National Monument" class="img-responsive img-thumbnail img-circle"></a>
 								<div class="caption">
 									<h3 class="contact">Contact Me</h3>
 									<p>Get in contact with me and interesting links.</p>
@@ -178,7 +178,7 @@
 						</div><!--/.col-md-3-->
 						<div class="col-md-3 col-sm-6">
 							<div class="thumbnail">
-								<img src="media/200/band2004.jpg" alt="Looking down trail, Bandelier National Monument" class="img-responsive img-thumbnail img-circle">
+								<a href="./projects/index.php"><img src="media/200/band2004.jpg" alt="Looking down trail, Bandelier National Monument" class="img-responsive img-thumbnail img-circle"></a>
 								<div class="caption">
 									<h3 class="personal">For Fun</h3>
 									<p>Enjoyable projects outside of work.&#160;&#160;&#160;&#160;&#160;&#160;</p>
@@ -201,13 +201,13 @@
 
 				<div class="col-md-3">
 					<div class="link1">
-						<a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+						<a href="https://www.linkedin.com/in/marlan-ball-91964a100"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
 					</div>
 					<div class="link3">
 						<a href="#">&#160;&#160;&#160;</a>
 					</div>
 					<div class="link2">
-						<a href="#"><i class="fa fa-github" aria-hidden="true"></i></a>
+						<a href="https://github.com/wyndows"><i class="fa fa-github" aria-hidden="true"></i></a>
 					</div>
 				</div>
 
