@@ -70,48 +70,47 @@
 									<li data-target="#myCarousel" data-slide-to="10"></li>
 									<li data-target="#myCarousel" data-slide-to="11"></li>
 									<li data-target="#myCarousel" data-slide-to="12"></li>
-									<li data-target="#myCarousel" data-slide-to="13"></li>
 								</ol>
 								<!-- Wrapper for carousel items -->
 								<div class="carousel-inner">
 									<div class="item active">
-										<img src="media/300/band1.jpg" alt="First Slide">
+										<img src="media/300/band2.jpg" alt="First Slide">
 									</div>
 									<div class="item">
-										<img src="media/300/band2.jpg" alt="Second Slide">
+										<img src="media/300/band3.jpg" alt="Second Slide">
 									</div>
 									<div class="item">
-										<img src="media/300/band3.jpg" alt="Third Slide">
+										<img src="media/300/band4.jpg" alt="Third Slide">
 									</div>
 									<div class="item">
-										<img src="media/300/band4.jpg" alt="Fourth Slide">
+										<img src="media/300/band5.jpg" alt="Fourth Slide">
 									</div>
 									<div class="item">
-										<img src="media/300/band5.jpg" alt="Fifth Slide">
+										<img src="media/300/band6.jpg" alt="Fifth Slide">
 									</div>
 									<div class="item">
-										<img src="media/300/band6.jpg" alt="Sixth Slide">
+										<img src="media/300/band7.jpg" alt="Sixth Slide">
 									</div>
 									<div class="item">
-										<img src="media/300/band7.jpg" alt="Seventh Slide">
+										<img src="media/300/band8.jpg" alt="Seventh Slide">
 									</div>
 									<div class="item">
-										<img src="media/300/band8.jpg" alt="Eighth Slide">
+										<img src="media/300/band9.jpg" alt="Eighth Slide">
 									</div>
 									<div class="item">
-										<img src="media/300/band9.jpg" alt="Ninth Slide">
+										<img src="media/300/band10.jpg" alt="Ninth Slide">
 									</div>
 									<div class="item">
-										<img src="media/300/band10.jpg" alt="Tenth Slide">
+										<img src="media/300/band11.jpg" alt="Tenth Slide">
 									</div>
 									<div class="item">
-										<img src="media/300/band11.jpg" alt="Eleventh Slide">
+										<img src="media/300/band12.jpg" alt="Eleventh Slide">
 									</div>
 									<div class="item">
-										<img src="media/300/band12.jpg" alt="Twelfth Slide">
+										<img src="media/300/band13.jpg" alt="Twelfth Slide">
 									</div>
 									<div class="item">
-										<img src="media/300/band13.jpg" alt="Thirteenth Slide">
+										<img src="media/300/band14.jpg" alt="Thirteenth Slide">
 									</div>
 									<div class="item">
 										<img src="media/300/band14.jpg" alt="Fourteenth Slide">
@@ -153,7 +152,7 @@
 							<div class="thumbnail">
 								<a href="./about/index.php"><img src="media/200/band2001.jpg" alt="Tree across trail, Bandelier National Monument" class="img-responsive img-thumbnail img-circle"></a>
 								<div class="caption">
-									<h3 class="about">About Me</h3>
+									<a href="./about/index.php"><h3 class="about">About Me</h3></a>
 									<p>Professional experience and resume.&#160;&#160;&#160;&#160;&#160;&#160;</p>
 								</div>
 							</div><!--/.thumbnail-->
@@ -162,7 +161,7 @@
 							<div class="thumbnail">
 								<a href="./portfolio/index.php"><img src="media/200/band2002.jpg" alt="Fall leaves at Bandelier National Monument" class="img-responsive img-thumbnail img-circle"></a>
 								<div class="caption">
-									<h3 class="port">Portfolio</h3>
+									<a href="./portfolio/index.php"><h3 class="port">Portfolio</h3></a>
 									<p>Programming projects, past and present.&#160;&#160;&#160;&#160;&#160;&#160;</p>
 								</div>
 							</div><!--/.thumbnail-->
@@ -171,7 +170,7 @@
 							<div class="thumbnail">
 								<a href="./contact/index.php"><img src="media/200/band2003.jpg" alt="Fall leaves at Bandelier National Monument" class="img-responsive img-thumbnail img-circle"></a>
 								<div class="caption">
-									<h3 class="contact">Contact Me</h3>
+									<a href="./contact/index.php"><h3 class="contact">Contact Me</h3></a>
 									<p>Get in contact with me and interesting links.</p>
 								</div>
 							</div><!--/.thumbnail-->
@@ -180,7 +179,7 @@
 							<div class="thumbnail">
 								<a href="./projects/index.php"><img src="media/200/band2004.jpg" alt="Looking down trail, Bandelier National Monument" class="img-responsive img-thumbnail img-circle"></a>
 								<div class="caption">
-									<h3 class="personal">For Fun</h3>
+									<a href="./projects/index.php"><h3 class="personal">For Fun</h3></a>
 									<p>Enjoyable projects outside of work.&#160;&#160;&#160;&#160;&#160;&#160;</p>
 								</div>
 							</div><!--/.thumbnail-->

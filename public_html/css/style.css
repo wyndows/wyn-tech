@@ -22,12 +22,13 @@ header {
 
 body {
 	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+	background-color: olive;
 }
 
 /* welcome */
-#welcome {
-	background-color: #ccc
-}
+/*#welcome {*/
+	/*background: #ccc*/
+/*}*/
 
 h2 {
 	text-align: center;
@@ -43,12 +44,20 @@ h2 {
 
 /* feature */
 #feature {
+	background-color: olive;
+}
+
+.col-md-8 {
 	background: #ccc;
 }
 
 /* thumbs */
 #thumbnails {
 	background-color: olive;
+}
+
+h3 {
+	color: black;
 }
 
 .thumbnail {
