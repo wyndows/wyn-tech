@@ -1,3 +1,4 @@
+//<!-- code based on work by Rochelle Lewis -->
 $(document).ready(function(){
 
 	/* begin validation*/

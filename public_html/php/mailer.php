@@ -1,3 +1,4 @@
+<!-- code based on work by Rochelle Lewis -->
 <?php
 /**
  * require all composer dependencies; requiring the autoload file loads all composer packages at once
@@ -77,5 +78,5 @@ try {
 	echo "<div class=\"alert alert-success\" role=\"alert\">Email successfully sent.</div>";
 
 } catch(Exception $exception) {
-	echo "<div class=\"alert alert-danger\" role=\"alert\"><strong>Oh snap!</strong> Unable to send email: " . $exception->getMessage() . "</div>";
+	echo "<div class=\"alert alert-danger\" role=\"alert\"><strong>Something is wrong.</strong> Unable to send email: " . $exception->getMessage() . "</div>";
 }

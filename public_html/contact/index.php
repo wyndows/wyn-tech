@@ -6,6 +6,7 @@ $PAGE_TITLE = "wyn-tech contact";
 /*load head-utils.php*/
 require_once(dirname(__DIR__) . "/php/partials/head-utils.php");
 ?>
+<!-- code based on work by Rochelle Lewis -->
 <div class="container">
 	<div id="contact">
 		<div class="row">
