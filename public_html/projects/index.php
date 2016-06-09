@@ -13,13 +13,12 @@ require_once(dirname(__DIR__) . "/php/partials/head-utils.php");
 			<div class="col-md-12">
 				<h3>Bowl Turning</h3>
 
-				<p>I recently decided to teach myself bowl turning. Here are some of my
-					turnings
-					which I enjoyed.</p><br><br>
+				<p>I recently decided to teach myself how to turn wood bowls. Here are some turnings which resulted from the
+					process.</p><br><br>
 				<img class="img-responsive center-block" src="../media/pine_knitting_bowl.jpg"
 					  alt="Ponderosa Pine Knitting Bowls">
 				<br><h4>Pine Knitting Bowls</h4>
-				<p>These were some knitting bowls I made for my sisters. They were my first attempt at turning.
+				<p>These were some knitting bowls I made for my sisters. They were my first attempt at turning deep bowls.
 				<p>The wood was
 					Ponderosa Pine a friend was using as firewood.</p>
 				<p>I meant them only as practice, but my sisters wanted them anyway.</p><br><br>

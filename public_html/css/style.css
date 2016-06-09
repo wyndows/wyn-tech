@@ -16,6 +16,7 @@ header {
 .navbar {
 	background-color: #ccc;
 	color: black;
+	font-size: 125%;
 }
 
 body {
@@ -38,6 +39,7 @@ h2 {
 
 #feature {
 	background-color: olive;
+	font-size: 115%;
 }
 
 .col-md-8 {
@@ -48,6 +50,7 @@ h2 {
 /* thumbs */
 #thumbnails {
 	background-color: olive;
+	font-size: 110%;
 }
 
 .right.carousel-control, .left.carousel-control {
@@ -87,6 +90,7 @@ h3 {
 	background: antiquewhite;
 	padding: 20px;
 	border-radius: 5px;
+	font-size: 110%;
 }
 
 /* portfolio */
@@ -94,6 +98,7 @@ h3 {
 	padding: 60px;
 	background: antiquewhite;
 	border-radius: 5px;
+	font-size: 110%;
 }
 
 /* contact me */
@@ -101,6 +106,7 @@ h3 {
 	padding: 60px;
 	background: antiquewhite;
 	border-radius: 5px;
+	font-size: 110%;
 }
 
 /* for fun */
@@ -109,6 +115,7 @@ h3 {
 	background: antiquewhite;
 	border-radius: 5px;
 	text-align: center;
+	font-size: 110%;
 }
 
 .center-block {

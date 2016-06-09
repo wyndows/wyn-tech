@@ -11,7 +11,7 @@ require_once(dirname(__DIR__) . "/php/partials/head-utils.php");
 	<div id="contact">
 		<div class="row">
 			<div class="col-md-12">
-								<!-- begin main content area -->
+				<!-- begin main content area -->
 				<form id="contact-form" action="<?php echo $PREFIX; ?>php/mailer.php" method="post">
 					<div class="form-group">
 						<label for="name">Name <span class="text-danger">*</span></label>
@@ -47,13 +47,13 @@ require_once(dirname(__DIR__) . "/php/partials/head-utils.php");
 							<div class="input-group-addon">
 								<i class="fa fa-comment" aria-hidden="true"></i>
 							</div>
-							<textarea class="form-control" rows="5" id="message" name="message"
+							<textarea class="form-control" rows="8" id="message" name="message"
 										 placeholder="Message (2000 characters max)"></textarea>
 						</div>
 					</div>
 
 					<!-- reCAPTCHA -->
-					<div class="g-recaptcha" data-sitekey="6Lf1FSITAAAAAKoW3nqMGk_QW7achr8C4jHGOH6E"></div>
+					<div class="g-recaptcha" data-sitekey="6Lf1FSITAAAAAKoW3nqMGk_QW7achr8C4jHGOH6E"></div><p></p>
 
 					<button class="btn btn-info" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
 					<button class="btn btn-default" type="reset"><i class="fa fa-ban"></i> Reset</button>

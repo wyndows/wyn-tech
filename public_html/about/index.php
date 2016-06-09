@@ -43,14 +43,14 @@ require_once(dirname(__DIR__) . "/php/partials/head-utils.php");
 					<h4>Experience:</h4><br>
 					<dl class="dl-horizontal">
 						<dt>ROMuLess.com</dt>
-						<dd>E-commerce app for buying and selling cartridges for old gaming consoles. &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;April
+						<dd>E-commerce app for buying and selling cartridges for old gaming consoles. &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;April
 							2016 - present
 						</dd>
 						<dd>Deep Dive Coding Bootcamp Capstone Project</dd>
 						<dd>Programmed with PHP, MySQL, Javascript, HTML, CSS, AngularJS, Bootstrap</dd>
 						<p></p>
 						<dt>Angular Attack 2016</dt>
-						<dd>A 48-hour hackathon featuring Angular.&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;May
+						<dd>A 48-hour hackathon featuring Angular.&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;May
 							2016
 						</dd>
 						<dd>An online, virtual competition with contestants worldwide.</dd>
@@ -76,10 +76,10 @@ require_once(dirname(__DIR__) . "/php/partials/head-utils.php");
 					</dl>
 				</div>
 				<div class="container">
-					<h4>Volunteer Experience:</h4><br>
+					<h4>Volunteer Work:</h4><br>
 					<dl class="dl-horizontal">
 						<dt>Habitat for Humanity</dt>
-						<dd>home construction</dd>
+						<dd>Home construction</dd>
 					</dl>
 					<br><br><br>
 				</div>

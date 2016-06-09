@@ -88,17 +88,17 @@ require_once("php/partials/head-utils.php");
 		</div>
 		<div class="col-md-8">
 			<h2>Welcome to Wyn-Tech</h2>
-			<br>
+
 			<p>The homepage for Marlan Ball, web developer, service engineer, woodworker and amateur radio
 				operator.</p>
 			<p>My current programming language
 				repertoire includes PHP, JavaScript, mySQL, HTML, CSS, with work in Angular and Bootstrap
 				frameworks. </p>
-			<br>
+
 			<p></p>
 			<p class="info">All photographs on this page were taken during hikes at Bandelier National Monument, New
 				Mexico,
-				USA.</p>
+				USA.</p><br>
 		</div>
 		<!--					</div>-->
 	</div>
