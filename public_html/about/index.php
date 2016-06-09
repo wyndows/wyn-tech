@@ -2,66 +2,91 @@
 /*grab current directory*/
 $CURRENT_DIR = __DIR__;
 /*set page title here*/
-$PAGE_TITLE = "about wyn-tech";
+$PAGE_TITLE = "wyn-tech highlights";
 /*load head-utils.php*/
 require_once(dirname(__DIR__) . "/php/partials/head-utils.php");
 ?>
 <div class="container">
-	<div class="container">
-		<h4>Technical:</h4>
-		<ul>
-			<li>Languages: PHP, JavaScript, mySQL, HTML5, CSS3</li>
-			<li>Frameworks: JQuery, Bootstrap, Angular1 and 2</li>
-			<li>Software: Microsoft Office, GitHub, PHPStorm, Git, PuTTy</li>
-			<li>Systems: Windows XP, 7, 8, 10; Linux</li>
-			<li>Other: Basic networking, system builds, software installation and upgrades</li>
-		</ul>
+	<div id="about">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="container">
+					<br><br>
+					<h4>Technical:</h4><br>
+					<dl class="dl-horizontal">
+						<dt>Languages:</dt>
+						<dd>PHP, JavaScript, mySQL, HTML5, CSS3</dd>
+						<dt>Frameworks:</dt>
+						<dd>JQuery, Bootstrap, Angular 1 and 2</dd>
+						<dt>Software:</dt>
+						<dd>Microsoft Office</dd>
+						<dt>Systems:</dt>
+						<dd>Windows XP, 7, 8, 10; Linux</dd>
+						<dt>Other:</dt>
+						<dd>Basic networking, system builds, OS and software installation and upgrades</dd>
+					</dl>
 
+				</div>
+				<div class="container">
+					<h4>Education / Training:</h4><br>
+					<dl class="dl-horizontal">
+						<dt>Certificate</dt>
+						<dd>Full Stack Web Development</dd>
+						<dd>Deep Dive Coding Bootcamp, &#160;&#160;Central New Mexico Community College – Albuquerque, NM</dd>
+						<p></p>
+						<dt>Bachelor of Science</dt>
+						<dd>Electrical Engineering Technology</dd>
+						<dd>LeTourneau University – Longview, TX</dd>
+					</dl>
+				</div>
+				<div class="container">
+					<h4>Experience:</h4><br>
+					<dl class="dl-horizontal">
+						<dt>ROMuLess.com</dt>
+						<dd>E-commerce app for buying and selling cartridges for old gaming consoles. &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;April
+							2016 - present
+						</dd>
+						<dd>Deep Dive Coding Bootcamp Capstone Project</dd>
+						<dd>Programmed with PHP, MySQL, Javascript, HTML, CSS, AngularJS, Bootstrap</dd>
+						<p></p>
+						<dt>Angular Attack 2016</dt>
+						<dd>A 48-hour hackathon featuring Angular.&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;May
+							2016
+						</dd>
+						<dd>An online, virtual competition with contestants worldwide.</dd>
+						<dd>Part of a 4 person team, creating a web app to display the New Mexico RailRunner train schedules.
+						</dd>
+						<p></p>
+
+						<dt>Wyn-Tech.com</dt>
+						<dd>My personal website .... an ongoing project.</dd>
+						<p></p>
+
+						<dt>Nikon Precision Inc</dt>
+						<dd>Rio Rancho, NM
+						</dt>
+						<dd>Field Service Engineer</dd>
+						<dd>Troubleshot and repaired mechanical, electrical and electronic systems.</dd>
+						<dd>Provided
+							technical equipment support, maintenance and installation.
+						</dd>
+						<dd>Combined excellent technical and analytical
+							expertise with outstanding customer relationship management.
+						</dd>
+					</dl>
+				</div>
+				<div class="container">
+					<h4>Volunteer Experience:</h4><br>
+					<dl class="dl-horizontal">
+						<dt>Habitat for Humanity</dt>
+						<dd>home construction</dd>
+					</dl>
+					<br><br><br>
+				</div>
+			</div>
+		</div>
 	</div>
-	<div class="container">
-		<h4>Education / Training:</h4>
-		<ul>
-			<li>Certificate of Completion in Full Stack Web Development (anticipated)June 2016</li>
-			<p>Deep Dive Coding Bootcamp</p>
-			<p>Central New Mexico Community College – Albuquerque, NM</p>
-			<li>B.S. Electrical Engineering Technology May 1992</li>
-			<p>LeTourneau University – Longview, TX</p>
-		</ul>
-	</div>
-	<div class="container">
-		<h4>Professional Experience:</h4>
-
-		<li>Conducted job search and researched educational opportunities April 2015 – April 2016</li>
-
-		<li>Nikon Precision Inc – Belmont, CA 1995 to 2015</li>
-		<p>Field Service Engineer</p>
-
-		<li>Troubleshot and repaired mechanical, electrical and electronic systems, including computer, robotic, control
-			circuit, optic, power supply, mechanical, environmental, cooling, pneumatic, laser and vacuum.
-		</li>
-		<li>Provided
-			technical equipment support, maintenance and installation, combining excellent technical and analytical
-			expertise with outstanding customer relationship management.
-		</li>
-
-		<h5>Highlights:</h5>
-		<li>Analyzed errors and error trends for troubleshooting and prevention of downtime.</li>
-		<li>Modified systems for improved operation / output.</li>
-		<li>Planned, ordered parts, installed hardware and software and documented work.</li>
-		<li>Serviced and maintained up to 70 tools, installed new and relocated tools.</li>
-		<li>Identified and resolved customer issues to improve throughput and minimize downtime.</li>
-		<li>Supervised up to 9 service engineers.</li>
-		<p>Responsible for: Coordinating timely repairs and maintenance of tools, with emphasis on safety and
-			compliance with OSHA regulations and customer.</p>
-		<p>Conducting annual performance reviews.</p>
-		<li>Trained new FSEs in troubleshooting and documentation of repairs.</li>
-		</p>
-	</div>
-	<div class="container">
-		<h4>Volunteer Experience:</h4>
-		<p>Habitat for Humanity constructing houses</p>
-	</div>
-</div>
+</div><p><br><br><br></p>
 
 <?php require_once(dirname(__DIR__) . "/php/partials/footer.php"); ?>
 </body>

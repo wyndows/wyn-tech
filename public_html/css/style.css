@@ -18,22 +18,16 @@ header {
 	color: black;
 }
 
-
-
 body {
 	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
 	background-color: olive;
 }
 
-/* welcome */
-/*#welcome {*/
-	/*background: #ccc*/
-/*}*/
-
 h2 {
 	text-align: center;
 }
 
+/* feature */
 .welcome {
 	text-align: center;
 }
@@ -42,13 +36,13 @@ h2 {
 	font-size: .7em;
 }
 
-/* feature */
 #feature {
 	background-color: olive;
 }
 
 .col-md-8 {
-	background: #ccc;
+	background: antiquewhite;
+	border-radius: 10px;
 }
 
 /* thumbs */
@@ -88,6 +82,39 @@ h3 {
 	text-align: center;
 }
 
+/* highlights */
+#about {
+	background: antiquewhite;
+	padding: 20px;
+	border-radius: 5px;
+}
+
+/* portfolio */
+#portfolio {
+	padding: 60px;
+	background: antiquewhite;
+	border-radius: 5px;
+}
+
+/* contact me */
+#contact {
+	padding: 60px;
+	background: antiquewhite;
+	border-radius: 5px;
+}
+
+/* for fun */
+#turning {
+	padding: 60px;
+	background: antiquewhite;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.center-block {
+	margin: 0 auto;
+}
+
 /* footer */
 footer {
 	background: #ccc;
@@ -121,6 +148,7 @@ body {
 .fa-linkedin-square {
 	font-size: xx-large;
 }
+
 .fa-github {
 	font-size: xx-large;
 }
