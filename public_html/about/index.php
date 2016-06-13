@@ -10,7 +10,7 @@ require_once(dirname(__DIR__) . "/php/partials/head-utils.php");
 	<div id="about">
 		<div class="row">
 			<div class="col-md-12">
-				<div class="container">
+				<div class="container-fluid">
 					<br><br>
 					<h4>Technical:</h4><br>
 					<dl class="dl-horizontal">
@@ -27,7 +27,7 @@ require_once(dirname(__DIR__) . "/php/partials/head-utils.php");
 					</dl>
 
 				</div>
-				<div class="container">
+				<div class="container-fluid">
 					<h4>Education / Training:</h4><br>
 					<dl class="dl-horizontal">
 						<dt>Certificate</dt>
@@ -39,23 +39,21 @@ require_once(dirname(__DIR__) . "/php/partials/head-utils.php");
 						<dd>LeTourneau University – Longview, TX</dd>
 					</dl>
 				</div>
-				<div class="container">
+				<div class="container-fluid">
 					<h4>Experience:</h4><br>
 					<dl class="dl-horizontal">
 						<dt>ROMuLess.com</dt>
-						<dd>E-commerce app for buying and selling cartridges for old gaming consoles. &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;April
-							2016 - present
+						<dd>E-commerce app for buying and selling cartridges for old gaming consoles.
 						</dd>
 						<dd>Deep Dive Coding Bootcamp Capstone Project</dd>
 						<dd>Programmed with PHP, MySQL, Javascript, HTML, CSS, AngularJS, Bootstrap</dd>
 						<p></p>
 						<dt>Angular Attack 2016</dt>
-						<dd>A 48-hour hackathon featuring Angular.&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;May
-							2016
+						<dd>A 48-hour hackathon featuring Angular.
 						</dd>
 						<dd>An online, virtual competition with contestants worldwide.</dd>
-						<dd>Part of a 4 person team, creating a web app to display the New Mexico RailRunner train schedules.
-						</dd>
+						<dd>Part of a 4 person team, creating a web application to</dd>
+						<dd>display the New Mexico RailRunner train schedules.</dd>
 						<p></p>
 
 						<dt>Wyn-Tech.com</dt>
@@ -71,11 +69,11 @@ require_once(dirname(__DIR__) . "/php/partials/head-utils.php");
 							technical equipment support, maintenance and installation.
 						</dd>
 						<dd>Combined excellent technical and analytical
-							expertise with outstanding customer relationship management.
+							expertise with outstanding</dd> <dd>customer relationship management.
 						</dd>
 					</dl>
 				</div>
-				<div class="container">
+				<div class="container-fluid">
 					<h4>Volunteer Work:</h4><br>
 					<dl class="dl-horizontal">
 						<dt>Habitat for Humanity</dt>

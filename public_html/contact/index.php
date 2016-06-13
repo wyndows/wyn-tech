@@ -53,7 +53,7 @@ require_once(dirname(__DIR__) . "/php/partials/head-utils.php");
 					</div>
 
 					<!-- reCAPTCHA -->
-					<div class="g-recaptcha" data-sitekey="6Lf1FSITAAAAAKoW3nqMGk_QW7achr8C4jHGOH6E"></div><p></p>
+					<div class="g-recaptcha" data-sitekey="6LdmVSITAAAAAKCp4AIGZ8bltc1LNqj_2KgBRQiK"></div><p></p>
 
 					<button class="btn btn-info" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
 					<button class="btn btn-default" type="reset"><i class="fa fa-ban"></i> Reset</button>

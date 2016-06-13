@@ -1,9 +1,10 @@
-<!-- code based on work by Rochelle Lewis -->
 <?php
+
+/** <!-- code based on work by Rochelle Lewis --> **/
 /**
  * require all composer dependencies; requiring the autoload file loads all composer packages at once
  **/
-require_once(dirname(__DIR__, 2) . "/vendor/autoload.php");
+require_once(dirname(__DIR__) . "/vendor/autoload.php");
 
 /**
  * require mailer-config.php
@@ -11,7 +12,8 @@ require_once(dirname(__DIR__, 2) . "/vendor/autoload.php");
 require_once("mailer-config.php");
 
 // verify user's reCAPTCHA input
-$recaptcha = new \ReCaptcha\ReCaptcha($secret);
+//$recaptcha = new \ReCaptcha\ReCaptcha($secret);
+$recaptcha = new \ReCaptcha\ReCaptcha($secret, new \ReCaptcha\RequestMethod\SocketPost());
 $resp = $recaptcha->verify($_POST["g-recaptcha-response"], $_SERVER["REMOTE_ADDR"]);
 
 try {
@@ -27,6 +29,8 @@ try {
 	$email = filter_input(INPUT_POST, "email", FILTER_SANITIZE_EMAIL);
 	$subject = filter_input(INPUT_POST, "subject", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
 	$message = filter_input(INPUT_POST, "message", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
+	
+//	var_dump ($message);
 
 	// create Swift message
 	$swiftMessage = Swift_Message::newInstance();
@@ -62,6 +66,9 @@ try {
 	 * @see http://swiftmailer.org/docs/sending.html Sending Messages - Documentation - SwitftMailer
 	 **/
 	$smtp = Swift_SmtpTransport::newInstance("localhost", 25);
+//	->setUsername($silly)
+//		->setPassword($kitty)
+//	;
 	$mailer = Swift_Mailer::newInstance($smtp);
 	$numSent = $mailer->send($swiftMessage, $failedRecipients);
 

@@ -16,6 +16,9 @@ $PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
 		<link data-require="bootstrap-css@3.3.6" data-semver="3.3.6" rel="stylesheet"
 				href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.css"/>
 		<!-- Font Awesome -->
@@ -27,7 +30,7 @@ $PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
 				  src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 		<script data-require="bootstrap.js@*" data-semver="3.3.6"
 				  src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-		<script src='https://www.google.com/recaptcha/api.js'></script>
+
 
 		<!-- jQuery Form, Additional Methods, Validate -->
 		<script type="text/javascript"
@@ -36,6 +39,9 @@ $PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
 				  src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.0/jquery.validate.min.js"></script>
 		<script type="text/javascript"
 				  src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.0/additional-methods.min.js"></script>
+
+		<script src='https://www.google.com/recaptcha/api.js'></script>
+<!--		<script src='https://www.google.com/recaptcha/api/verify'></script>-->
 
 		<!-- Your JavaScript Form Validator -->
 		<script src="<?php echo $PREFIX; ?>js/form-validator.js"></script>
