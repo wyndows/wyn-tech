@@ -24,3 +24,10 @@ For example:
 **GOOD**: `<div id="contentdesktop">` **BAD**: `<div id = "contentdesktop">`
 
 Your Milestone 2&alpha; passes at [Tier III](https://bootcamp-coders.cnm.edu/projects/personal/rubric/). You are clear to begin development on your PWP.
+
+## Milestone 3 Feedback
+Excellent work here Marlan. Your PWP is well planned, well designed, well coded and achieves all of the goals and objectives outlined in Milestone 1. You have demonstrated an above-average skill set with HTML, CSS, and Bootstrap here. Excellent work with the form, and +100 for the SSL. Congratulations on a PWP well done. Your Milestone 3/Final PWP passes at [Tier IV](https://bootcamp-coders.cnm.edu/projects/personal/rubric/).
+
+### Edits &amp; Suggestions
+- See if you can get the .htaccess in place on ASO to redirect the user to /public_html and clean up the URL.
+- Your URLs will appear a little cleaner in you direct your nav links to the appropriate sudirectory only, and leave off the "index.php" references.
