@@ -12,16 +12,17 @@ require_once(dirname(__DIR__) . "/php/partials/head-utils.php");
 			<div class="col-md-12">
 				<h4 align="center"><strong>Programming Portfolio</strong></h4><br>
 				<h4><strong>ng-abq</strong></h4>
-				<p>A web app styled after Meetup. I
-					have
-					worked on both the front end and back end of the application.</p>
-				<p>I worked with PHP, MySQL, JavaScript, HTML, Angular 2.</p>
+				<p>A web app styled after Meetup.
+				<p>It utilizes PHP, MySQL, JavaScript, HTML, AngularJS 2.</p>
+				<br>
+				<h4><strong>WordPress plugin</strong></h4>
+				<p>Using PHP I wrote a plugin for WordPress to access and view Mindshare Labs API data.</p>
 				<br>
 				<h4><strong>ROMuLess</strong></h4>
 				<p>This web application is the capstone project for Deep Dive Coding Bootcamp. As part of a team of 3, I
 					have
 					worked on both the front end and back end of the application. Our assignment was to create an e-commerce
-					website for the buying and selling of gaming cartridges. It is an ongoing project which I am working on.</p>
+					website for the buying and selling of gaming cartridges.</p>
 					<p>It utilizes PHP, MySQL, JavaScript, HTML, CSS3, Bootstrap, Angular 1, Composer and Mailgun.</p>
 				<br>
 				<h4><strong>wyn-tech.com</strong></h4>
@@ -38,15 +39,8 @@ require_once(dirname(__DIR__) . "/php/partials/head-utils.php");
 					ran for 48hrs where we
 					were to create an app in Angular. We worked on an app that would show the New Mexico RailRunner
 					schedules. We
-					had a lot of fun during the hackathon and used the opportunity to gain knowledge in Angular 2. The
-					project is still ongoing as we find time.</p>
+					had a lot of fun during the hackathon and used the opportunity to gain knowledge in Angular 2.</p>
 				<br>
-				<h4><strong>ABQ-parks</strong></h4>
-				<p>This is an app I have not been able to work on as much as I wanted. It purpose is to show the various parks available in
-					Albuquerque, New Mexico. As a future capability, I want to add the ability to use your location to give
-					you a
-					list of nearby parks.</p>
-				<p>It utilizes JavaScript, HTML and Angular 2</p>
 				<br><br>
 				<p>My github is linked at the bottom of the page.</p>
 			</div>
