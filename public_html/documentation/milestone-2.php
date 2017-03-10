@@ -19,7 +19,7 @@
 		<p><strong>About Me: </strong>This page will detail my professional history, core skill set, and professional highlights. This page will showcase my strengths and personality. The tone of voice will be personable and casual, as I am only interested in opportunities with individuals and organizations that I am a good personality fit for. This will be a moving text area as my contact info will be locked at the bottom of the page</p>
 		<p><strong>Portfolio: </strong>1 -2 examples of my past work, including my roles and contributions to each project. I want this to be an animated, responsive image gallery.</p>
 		<h3>Interaction Flow</h3>
-		<p>Christa is viewing the site on her phone. She goes to wyn-tech.com and is shown the Home Page. In the next 3 minutes, here is an outline of Christa’s interactions with the 		site:</p>
+		<p>Christa is viewing the site on her phone.  She goes to wyn-tech.com and is shown the Home Page. In the next 3 minutes, here is an outline of Christa’s interactions with the 		site:</p>
 		<ol>
 			<li>Lands on Home page. Touches menu and a dropdown shows with Home, About and Portfolio.</li>
 			<li>Views the two projects in Portfolio gallery. Finds work satisfactory. Navigates to the "About Me" page via the main navigation in the header.</li>

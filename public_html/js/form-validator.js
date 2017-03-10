@@ -3,7 +3,7 @@ $(document).ready(function(){
 	/* begin validation*/
 	$("#contact-form").validate({
 
-		// setup handling of form errors
+		//  setup handling of form errors
 		debug: true,
 		errorClass: "alert alert-danger",
 		errorLabelContainer: "#output-area",

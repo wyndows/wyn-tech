@@ -1,5 +1,5 @@
 <?php
-/*grab current directory*/
+/* grab current directory*/
 $CURRENT_DIR = __DIR__;
 /*set page title here*/
 $PAGE_TITLE = "wyn-tech";

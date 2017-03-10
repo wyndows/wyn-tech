@@ -1,6 +1,6 @@
 <?php
 
-/** <!-- code based on work by Rochelle Lewis --> **/
+/**  <!-- code based on work by Rochelle Lewis --> **/
 /**
  * require all composer dependencies; requiring the autoload file loads all composer packages at once
  **/

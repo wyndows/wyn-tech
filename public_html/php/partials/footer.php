@@ -4,7 +4,7 @@
 
 			<div class="col-md-6 col-md-offset-3">
 				<div class="copyright text-center">
-					© Wyn-Tech 2016
+					© Wyn-Tech 2017
 				</div>
 			</div>
 

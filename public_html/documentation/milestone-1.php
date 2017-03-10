@@ -5,7 +5,7 @@
 		<title>Wyn-Tech.com</title>
 	</head>
 	<body>
-			<h2>Wyn-Tech.com Milestone 1</h2>
+			<h2>Wyn-Tech.com  Milestone 1</h2>
 			<h3>Purpose, Audience and Goal</h3>
 			<p><strong>Purpose: </strong>This will be a website used to showcase my web development skills as well as my technical background.</p>
 			<p><strong>Audience: </strong>This site is targeted to IT and technical professionals, IT and technical hiring managers as well as peers.</p>
