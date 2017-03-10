@@ -53,6 +53,10 @@ require_once(dirname(__DIR__) . "/php/partials/head-utils.php");
 						</dd>
 						<dd>Programmed with PHP, MySQL, Javascript, HTML, CSS, AngularJS 2</dd>
 						<p></p>
+						<dd>WordPress plugin</dd>
+						<dd>Created a plugin for WordPress to access and display data from a company's API.</dd>
+						<dd>Programmed with PHP</dd>
+						<p></p>
 						<dd>ROMuLess</dd>
 						<dd>E-commerce app for buying and selling cartridges for old gaming consoles.
 						</dd>
