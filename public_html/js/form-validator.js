@@ -1,4 +1,3 @@
-//<!-- code based on work by Rochelle Lewis -->
 $(document).ready(function(){
 
 	/* begin validation*/
@@ -42,6 +41,7 @@ $(document).ready(function(){
 		},
 
 		submitHandler: function(form) {
+			console.log('testing');
 			$("#contact-form").ajaxSubmit({
 				type: "POST",
 				url: $("#contact-form").attr("action"),

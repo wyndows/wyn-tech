@@ -92,8 +92,8 @@ require_once("php/partials/head-utils.php");
 			<p>The homepage for Marlan Ball, web developer, service engineer, woodworker and amateur radio
 				operator.</p>
 			<p>My current programming language
-				repertoire includes PHP, JavaScript, mySQL, HTML, CSS, with work in Angular and Bootstrap
-				frameworks. </p>
+				repertoire includes PHP, JavaScript, mySQL, HTML, CSS, with work in AngularJS and Bootstrap
+				frameworks, and JQuery and Composer libraries. </p>
 
 			<p></p>
 			<p class="info">All photographs on this page were taken during hikes at Bandelier National Monument, New

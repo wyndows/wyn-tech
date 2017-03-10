@@ -41,7 +41,7 @@ $PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
 				  src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.0/additional-methods.min.js"></script>
 
 		<script src='https://www.google.com/recaptcha/api.js'></script>
-<!--		<script src='https://www.google.com/recaptcha/api/verify'></script>-->
+		<!--		<script src='https://www.google.com/recaptcha/api/verify'></script>-->
 
 		<!-- Your JavaScript Form Validator -->
 		<script src="<?php echo $PREFIX; ?>js/form-validator.js"></script>

@@ -28,8 +28,12 @@ require_once(dirname(__DIR__) . "/php/partials/head-utils.php");
 
 				</div>
 				<div class="container-fluid">
-					<h4>Education / Training:</h4><br>
+					<h4>Education / Training / Certification:</h4><br>
 					<dl class="dl-horizontal">
+						<dt>Certification</dt>
+						<dd>Zend Certified PHP Engineer</dd>
+						<dd>Zend Technologies</dd>
+						<p></p>
 						<dt>Certificate</dt>
 						<dd>Full Stack Web Development</dd>
 						<dd>Deep Dive Coding Bootcamp, &#160;&#160;Central New Mexico Community College – Albuquerque, NM</dd>
@@ -42,7 +46,7 @@ require_once(dirname(__DIR__) . "/php/partials/head-utils.php");
 				<div class="container-fluid">
 					<h4>Experience:</h4><br>
 					<dl class="dl-horizontal">
-						<dt>ROMuLess.com</dt>
+						<dt>ROMuLess</dt>
 						<dd>E-commerce app for buying and selling cartridges for old gaming consoles.
 						</dd>
 						<dd>Deep Dive Coding Bootcamp Capstone Project</dd>

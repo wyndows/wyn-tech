@@ -4,6 +4,7 @@
 /**
  * require all composer dependencies; requiring the autoload file loads all composer packages at once
  **/
+
 require_once(dirname(__DIR__) . "/vendor/autoload.php");
 
 /**
@@ -16,10 +17,11 @@ require_once("mailer-config.php");
 $recaptcha = new \ReCaptcha\ReCaptcha($secret, new \ReCaptcha\RequestMethod\SocketPost());
 $resp = $recaptcha->verify($_POST["g-recaptcha-response"], $_SERVER["REMOTE_ADDR"]);
 
+
 try {
 
 	// if reCAPTCHA error, output the error code to the user
-	if (!$resp->isSuccess()) {
+	if(!$resp->isSuccess()) {
 		throw(new Exception("reCAPTCHA error!"));
 	}
 
@@ -29,7 +31,7 @@ try {
 	$email = filter_input(INPUT_POST, "email", FILTER_SANITIZE_EMAIL);
 	$subject = filter_input(INPUT_POST, "subject", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
 	$message = filter_input(INPUT_POST, "message", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
-	
+
 //	var_dump ($message);
 
 	// create Swift message

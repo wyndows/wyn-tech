@@ -53,10 +53,12 @@ require_once(dirname(__DIR__) . "/php/partials/head-utils.php");
 					</div>
 
 					<!-- reCAPTCHA -->
-					<div class="g-recaptcha" data-sitekey="6LdmVSITAAAAAKCp4AIGZ8bltc1LNqj_2KgBRQiK"></div><p></p>
+					<div class="g-recaptcha" data-sitekey="6LdmVSITAAAAAKCp4AIGZ8bltc1LNqj_2KgBRQiK"></div>
+					<p></p>
 
 					<button class="btn btn-info" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
 					<button class="btn btn-default" type="reset"><i class="fa fa-ban"></i> Reset</button>
+
 				</form>
 
 				<!--empty area for form error/success output-->
@@ -65,10 +67,24 @@ require_once(dirname(__DIR__) . "/php/partials/head-utils.php");
 						<div id="output-area"></div>
 					</div>
 				</div>
+				<br>
 				<!--				</main>-->
+
+				<div class="row>">
+					<!--					<div class="col-xs-12">-->
+					<h3>Links I Use</h3>
+					<p><a href="http://php.net/manual/en/index.php">PHP Manual</a></p>
+					<p><a href="https://angularjs.org/">Angular JS</a></p>
+					<p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/">JavaScript</a></p>
+					<p><a href="http://www.arrl.org/">Amateur Radio Relay League</a></p>
+					<p><a href="http://caravanradio.org/">Amateur Radio Caravan Club</a></p>
+					<p><a href="https://myworldofwood.com/">Albuquerque Exotic Woods</a></p>
+
+				</div>
 			</div>
 		</div>
 	</div>
+</div>
 </div><p><br><br><br></p>
 
 <!--/.sfooter-content-->
