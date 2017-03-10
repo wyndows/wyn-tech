@@ -11,6 +11,12 @@ require_once(dirname(__DIR__) . "/php/partials/head-utils.php");
 		<div class="row">
 			<div class="col-md-12">
 				<h4 align="center"><strong>Programming Portfolio</strong></h4><br>
+				<h4><strong>ng-abq</strong></h4>
+				<p>A web app styled after Meetup. I
+					have
+					worked on both the front end and back end of the application.</p>
+				<p>I worked with PHP, MySQL, JavaScript, HTML, Angular 2.</p>
+				<br>
 				<h4><strong>ROMuLess</strong></h4>
 				<p>This web application is the capstone project for Deep Dive Coding Bootcamp. As part of a team of 3, I
 					have
@@ -36,7 +42,7 @@ require_once(dirname(__DIR__) . "/php/partials/head-utils.php");
 					project is still ongoing as we find time.</p>
 				<br>
 				<h4><strong>ABQ-parks</strong></h4>
-				<p>This is an app I have been working on in my spare time. It shows the various parks available in
+				<p>This is an app I have not been able to work on as much as I wanted. It purpose is to show the various parks available in
 					Albuquerque, New Mexico. As a future capability, I want to add the ability to use your location to give
 					you a
 					list of nearby parks.</p>

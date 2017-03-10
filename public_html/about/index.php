@@ -46,34 +46,40 @@ require_once(dirname(__DIR__) . "/php/partials/head-utils.php");
 				<div class="container-fluid">
 					<h4>Experience:</h4><br>
 					<dl class="dl-horizontal">
-						<dt>ROMuLess</dt>
+
+						<dt>github</dt>
+						<dd>ng-abq</dd>
+						<dd>Website project styled after Meetup
+						</dd>
+						<dd>Programmed with PHP, MySQL, Javascript, HTML, CSS, AngularJS 2</dd>
+						<p></p>
+						<dd>ROMuLess</dd>
 						<dd>E-commerce app for buying and selling cartridges for old gaming consoles.
 						</dd>
 						<dd>Deep Dive Coding Bootcamp Capstone Project</dd>
-						<dd>Programmed with PHP, MySQL, Javascript, HTML, CSS, AngularJS, Bootstrap</dd>
+						<dd>Programmed with PHP, MySQL, Javascript, HTML, CSS, AngularJS 1, Bootstrap</dd>
 						<p></p>
+						<dd>Wyn-Tech.com</dd>
+						<dd>My personal website .... an ongoing project.</dd>
+						<p></p>
+
 						<dt>Angular Attack 2016</dt>
-						<dd>A 48-hour hackathon featuring Angular.
+						<dd>A 48-hour hackathon featuring AngularJS 2.
 						</dd>
-						<dd>An online, virtual competition with contestants worldwide.</dd>
 						<dd>Part of a 4 person team, creating a web application to</dd>
 						<dd>display the New Mexico RailRunner train schedules.</dd>
 						<p></p>
 
-						<dt>Wyn-Tech.com</dt>
-						<dd>My personal website .... an ongoing project.</dd>
+						<dt>Randstad Engineering</dt>
+						<dd>Field Service Engineer
+						</dd>
+						<dd>Installation and cabling of semiconductor capital equipment.</dd>
 						<p></p>
-
 						<dt>Nikon Precision Inc</dt>
-						<dd>Rio Rancho, NM
-						</dt>
 						<dd>Field Service Engineer</dd>
 						<dd>Troubleshot and repaired mechanical, electrical and electronic systems.</dd>
 						<dd>Provided
 							technical equipment support, maintenance and installation.
-						</dd>
-						<dd>Combined excellent technical and analytical
-							expertise with outstanding</dd> <dd>customer relationship management.
 						</dd>
 					</dl>
 				</div>
