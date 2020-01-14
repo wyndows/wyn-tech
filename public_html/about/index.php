@@ -15,13 +15,13 @@ require_once(dirname(__DIR__) . "/php/partials/head-utils.php");
 					<h4>Technical:</h4><br>
 					<dl class="dl-horizontal">
 						<dt>Languages:</dt>
-						<dd>PHP, JavaScript, mySQL, HTML5, CSS3</dd>
+						<dd>C#, C++, Java, Python, PHP, JavaScript, mySQL, HTML5, CSS3</dd>
 						<dt>Frameworks:</dt>
-						<dd>JQuery, Bootstrap, Angular 1 and 2</dd>
+						<dd>.NET, Android, JQuery, Bootstrap, Angular</dd>
 						<dt>Software:</dt>
 						<dd>Microsoft Office</dd>
 						<dt>Systems:</dt>
-						<dd>Windows XP, 7, 8, 10; Linux</dd>
+						<dd>Windows, Linux</dd>
 						<dt>Other:</dt>
 						<dd>Basic networking, system builds, OS and software installation and upgrades</dd>
 					</dl>
@@ -30,6 +30,10 @@ require_once(dirname(__DIR__) . "/php/partials/head-utils.php");
 				<div class="container-fluid">
 					<h4>Education / Training / Certification:</h4><br>
 					<dl class="dl-horizontal">
+						<dt>Certificate</dt>
+						<dd>Computer Programming</dd>
+						<dd>Central New Mexico Community College – Albuquerque, NM</dd>
+						<p></p>
 						<dt>Certification</dt>
 						<dd>Zend Certified PHP Engineer</dd>
 						<dd>Zend Technologies</dd>
